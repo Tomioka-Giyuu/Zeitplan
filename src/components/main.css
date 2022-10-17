@@ -1,0 +1,528 @@
+/*main */
+
+body{
+    background-color: white;
+    color: white;
+}
+
+.homemain{
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;   
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    background-color: #8B9FFE;
+    display: flex;
+    align-items: center;
+
+}
+Link{
+    text-decoration: none;
+}
+
+.logo{
+   width: 50px;
+   height: 50px;
+}
+
+.navlinks{
+    cursor: pointer;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item{
+    font-weight: 600;
+    margin-left: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav-item:hover{
+    color: #FF9F45;
+}
+.logout{
+    list-style: none;
+    margin-left: 20px;
+    text-align: center;
+    background-color: #FF9F45;
+    border-radius: 5px;
+    color: black;
+    width: 100px;
+    height: 25px;
+    
+}
+.logout:hover{
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.logoh{
+    color: white;
+    font-size: 1.5rem;
+    width: 100px;
+}
+
+.bcontent{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 80px;
+    border-radius: 70px;
+    width: 49.6%;
+    background-image: url('https://res.cloudinary.com/dxi9wcchp/image/upload/v1660649607/4892463_oytpal.jpg');background-size: contain;background-repeat: no-repeat;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 81.2%;
+    color: black;
+    align-items: center;
+    display: flex;   
+}
+.cuser{
+    list-style: none;
+    padding-left: 90px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.cuser img{
+    margin-left: 70px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.addfac{
+    text-decoration: none;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 25px;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: medium;
+    color: #D36B00;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 9px;
+}
+h5{
+    padding-top: 20px;
+    color: black;
+}
+
+
+/*login-signup page */
+.form{
+    margin-top: 40px;
+    color: black;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.loginnav{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8B9FFE;
+}
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #8068FF;
+}
+.login{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+    border: 0.5px solid;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 1rem;
+}
+
+.loginbtn{
+    cursor: pointer;
+    border: 0.5px solid;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 30px;
+    background-color: #8068FF;
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.loginbtn:hover{
+    background-color: #8876E7;
+}
+
+.ca{
+    margin-top: 30px;
+    text-decoration: none;
+    display: flex;
+}
+
+.signupbtn{
+    margin-right: 20px;
+    margin-top: 15px;
+    border: 0.5px solid;
+    background-color: #D36B00;
+    font-size: 1rem;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ortxt{
+    margin-top: 15px;
+}
+
+h3{
+    margin-left: 50px;
+    color: white;
+    margin-top: 7px;
+    font-weight: 900;
+    font-size: 40px;
+}
+.error{
+    margin-top: 40px;
+    width: 500px;
+    color: red;
+    height: 50px;
+}
+.gbtn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 20px;
+    background-color: white;
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    color: #8B9FFE;
+}
+.gbtn:hover{
+    background-color: black;
+    color: white;
+
+}
+.gimg{
+    margin-right: .6rem;
+    width: 20px;
+    height: 20px;
+}
+
+
+/* add fac page */
+
+.coursedd{
+    width: 150px;
+    height: 40px;
+    background-color: #8876E7;
+    color: white;
+    border-radius: 5px;
+    margin-top: 50p;
+}
+.innpot{
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    flex-shrink: 0;
+   
+    display: flex;
+    width: 100%;
+}
+
+.tname{ 
+    margin-left: 20px;
+    box-shadow: none;
+    height: 60px;
+    color: #8068FF;
+    background-color: white;
+}
+.inpuut{
+    display: flex;
+    flex-direction: row;
+}
+
+.butun{
+    justify-content: center;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.sfedd{
+    flex-direction: row;
+    cursor: pointer;
+    margin-right: 300px;
+    margin-top: 250px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    background-color: #FF9F45;
+    border-radius: 6px;
+}
+
+.sfedd:hover{
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+/*about page */
+.abt{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    color: #8068FF;
+    margin-top: 120px;
+}
+
+p{
+    font-size: 18px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: #8068FF;
+}
+
+/*makett page */
+.makettbtns{
+    display: flex;
+    flex-direction: row;
+}
+.selc{
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.steach{
+    margin-right: 0px;
+}
+.options{
+    width: 150px;
+    height: 40px;
+    margin-top: 100px;
+    background-color: #8876E7;
+    color: white;
+    border-radius: 5px;
+}
+
+.options option{
+    border-radius: none;
+    background-color: #8876E7;
+}
+
+label{
+    color: black;
+    font-weight: 400;
+}
+
+.eteach{
+    height: 60px;
+    box-shadow: none;
+    border: 1px solid #8068FF;
+}
+
+.option{
+    width: 150px;
+    height: 40px;
+    margin-right: 80px;
+    margin-top: 50px;
+    background-color: #8876E7;
+    color: white;
+    border-radius: 5px;
+}
+.sfedd{
+    cursor: pointer;
+    margin-right: 100px;
+    margin-top: 60px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    background-color: #FF9F45;
+    border-radius: 6px;
+}
+.sfedd:hover{
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.stable{
+    width: 800px;
+    border: 2px solid #FF9F45;
+    color: #8068FF;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.stable td {
+    border: 1px solid #FF9F45;
+}
+.stable th {
+    border: 2px solid #FF9F45;
+}
+.addfacbtn{
+    text-align: center;
+    background-color: white;
+    border: 2px solid #8068FF;
+    border-radius: 7px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.addfacbtn:hover{
+    background-color: #FF9F45;
+}
+.facselected{
+    margin-right: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.facselectedtable{
+    border: 2px solid #8068FF;
+    color: #FF9F45;
+    margin-top: 20px;
+    width: 600px;
+}
+.facselectedtable td{
+    border: 1px solid #8068FF;
+    text-align: center;
+}
+.facselectedtable th{
+    border: 2px solid #8068FF;
+    text-align: center;
+}
+.recommended{
+    width: 170px;
+    box-shadow: none;
+    background-color: #D36B00;
+    font-size: 18px;
+    margin-left: 780px;
+    display: flex;
+    margin-top: 0px;
+    color: white;
+}
+.saveoffline{
+    margin-left: 110px;
+    width: 200px;
+    height: 40px;
+    background-color: #FF9F45;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 33px;
+    cursor: pointer;
+}
+
+.saveoffline:hover{
+    background-color: #8876E7;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.days{
+    font-weight: 650;
+}
+
+.radiobtn{
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+    color: #8068FF;
+}
+
+/* manage fac page */
+.addfacpagediv{
+    margin-top: 50px;
+}
+.ddowncourse{
+    margin-top: 50px;
+}
+.facdetails{ 
+    width: 900px;
+    height: 100%;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #D36B00;
+}
+
+.factable{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    width: 100%;
+    border: 2px solid #8068FF;   
+}
+.factable td {
+    border: 1px solid #8068FF; 
+    text-align: center;  
+}
+.factable th {
+    border: 2px solid #8068FF;
+}
+.delbtn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.deletebtn{
+    margin-right: .6rem;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+/* chnge pass page */
+.userimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.userimgsec{
+    margin-top: 100px;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.userimgsec h4{
+    color: black;
+}
+
